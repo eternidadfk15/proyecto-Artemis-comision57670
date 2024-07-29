@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="icon" href="../assets/img/artemis.-logo.png" type="image/x-icon" />
+</head>
+<body>
+    <header>
+        <section>
+            <div class="navbar-logo">
+                <img src="../assets/img/artemis.-logo.png" alt="Nombre de la empresa">
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="productos.html">Productos</a>
+                    </li>
+                    <li>
+                        <a href="contacto.html">Contacto</a>
+                    </li>
+                    <li>
+                        <a href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li><a href="info.html">Info</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <main>
+    <h1>"Consultanos"</h1>
+        <form action="procesar_formulario.php" method="post">
+
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+            </div>
+            <div>
+                <label for="url">Red social:</label>
+                <input type="url" id="social-links" name="social-links">
+            </div>
+            <div>
+                <label for="asunto">Asunto:</label>
+                <input type="text" id="asunto" name="asunto" required>
+            </div>
+            <div>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="10" required></textarea>
+            </div>
+            <div>
+                <button type="submit">Enviar</button>
+            </div>    
+        </form>
+    </main>
+    <footer>
+        <!-- <div class="logo-footer">
+            <img src="./assets/img/artemis.-logo.png" alt="Logo de Mi Empresa">
+        </div> -->
+        <div class="social-links">
+            <a href="https://facebook.com">Perfil Facebook</a>
+            <a href="https://twitter.com">Perfil Twiter</a>
+            <a href="https://instagram.com">Perfil instagram</a>
+            <a href="https://wa.me">Numero contacto</a>
+        </div>
+        <p>&copy; 2024 Artemis S.A. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
